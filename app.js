@@ -29,7 +29,7 @@ var data={
 }
 
 
-var url="https://us17.api.mailchimp.com/3.0/lists/f9c6af7940";
+var url="https://us2023.api.mailchimp.com/3.0/lists/f9c640";
 const options={
     method:"POST",
     auth:"prabhekamsingh:73e0105c7ff14cd4092e96ccf66db196-us17"
@@ -59,5 +59,3 @@ app.post('/failure',function(req,res){
 })
 
 app.listen(process.env.PORT||3000,function(){console.log('server is runing on port 3000')});
-// api key:73e0105c7ff14cd4092e96ccf66db196-us17
-// id:f9c6af7940
